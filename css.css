@@ -104,7 +104,7 @@ margin-top: 31px;
      max-width:1202px ;
      max-height: 534px;
     margin: 0 auto;
-    text-align: center;
+    
    
     margin-top: 331px;
     
@@ -120,6 +120,7 @@ margin-top: 31px;
     width: 534px;
     height: 534px;
     background-color: #F5F5FF;
+    text-align: center;
 }
 
 
