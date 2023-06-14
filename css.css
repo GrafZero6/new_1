@@ -1,0 +1,618 @@
+body {
+    font-family: League Spartan, sans-serif;
+    font-family: Nunito Sans, sans-serif;
+}
+.dark   {
+    background: #2B2B2B;
+}
+.light   {
+    background: #E5E5E5;
+}
+.buttom {
+    background: #423F3E;
+    border-radius: 5px;
+    padding: 0 15px ;
+    height: 50px;
+    line-height: 50px; 
+    color: white;
+    font-size: 18px;
+    font-weight: 700px;
+    text-decoration: none;
+    display: inline-block;
+    
+
+
+}
+
+.buttom:hover {
+    opacity: 0.6;
+}
+.header {
+display: flex;
+justify-content: space-between;
+margin-top: 34px;
+
+
+}
+.logo {
+    height: 80px;
+    width: 80px;
+    background-color: #c4c4c4;
+}
+.wrapper {
+    max-width:1170px ;
+    margin: 0 auto;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+ 
+    
+   
+    
+}
+.header-item_2 {
+    display: flex;
+    align-items: center;
+}
+.header-item_3 {
+    display: flex;
+    align-items: center;
+}
+
+li {
+  padding-left: 20px; /*делаем отступы в списке*/
+  
+  
+}
+
+/*Блок с Заголовком и Абзацем*/
+
+.block_text_1 {
+    max-width: 960px;   /*задаем ширину блока*/
+    min-height: 356px;   /*задаем высоту блока*/
+    margin: 0 auto;     /*центрируем*/
+   
+}
+
+/*Заголовок*/ 
+
+.oglavlenie {
+font-weight: 700; /*жирность шрифта*/
+font-size: 64px; /*размер шрифта*/
+line-height: 120%;
+text-align: center;
+margin-top: 229px;
+height:169px ;
+width: 960px;
+
+}
+.oglavlenie_1 {
+    font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 120%;
+text-align: center; /*выравниваем текст по середине*/
+margin-top: 31px;
+}
+
+/*начало третьей части*/
+.center {
+    display: flex;
+    justify-content: space-between;
+     max-width:1202px ;
+     max-height: 534px;
+    margin: 0 auto;
+    text-align: center;
+   
+    margin-top: 331px;
+    
+}
+.stend_1 {
+    max-width: 600px;
+    min-height: 308px;
+    
+    margin-top: 68px;
+ 
+}
+.stend_2 {
+    width: 534px;
+    height: 534px;
+    background-color: #F5F5FF;
+}
+
+
+.img {
+    max-width: 97.75px;
+    max-height: 132.9px;
+    align-items: center;
+   margin-top: 200.5px;
+   
+   
+   
+   
+}
+.zagalovok {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 53px;
+    line-height: 120%;
+text-align: left; /*расположение текста */
+width: 600px;
+height: 128px;
+
+
+
+}
+
+.text_1 {
+    max-width: 266px;
+max-height: 72px;
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 150%;
+text-align: left;
+margin-top: 0;
+
+
+
+
+}
+.text_2 {
+    max-width: 266px;
+    max-height: 120px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: left;
+    margin-left: 54px;
+    margin-top: 0px;
+}
+.polka_1 {
+    display: flex;
+    flex-direction: row;
+    max-width: 586px;
+    max-height: 72px;
+    
+    margin-top: 60px;
+}
+.polka_2 {
+    display: flex;
+    flex-direction: row;
+    max-width: 600px;
+    max-height: 28px;
+    margin-top: 20px;
+   
+  
+}
+.Read_more_1 {
+    max-width: 91px;
+    max-height: 28px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: left;
+}
+.cartoon_1 {
+    max-width: 14px;
+    max-height: 18px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    margin-left: 10px;
+    margin-top: 5px;
+    
+}
+.cartoon_2 {
+    max-width: 14px;
+    max-height: 18px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    margin-left: 10px;
+    margin-top: 5px;
+    
+}
+.Read_more_2 {
+    max-width: 91px;
+    max-height: 28px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: left;
+    margin-left: 215px;
+}
+/*конец третей части*/
+/*четвертая часть*/
+.House {
+    max-width: 1203px;
+    max-height: 257px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 232px;
+    
+}
+.home {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+max-width: 508.28px;
+max-height: 151px;
+
+}
+.home_door {
+    max-width: 428px;
+    max-height: 216px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 225.99px;
+    margin-top: 20.05px;
+   
+}
+.garage {
+    max-width: 508.28px;
+   max-height: 47px;
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 39px;
+line-height: 120%;
+margin-top: 50.03px;
+margin-bottom: 0;
+}
+.pogreb {
+    max-width: 508.28px;
+    max-height: 84px;
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 28px;
+text-align: left; /*текст слева*/
+margin-top: 20px;
+
+}
+
+.podiezd_1 {
+    max-width: 220px;
+    max-height: 216px;
+}
+.door_1 {
+    max-width: 220px;
+    max-height: 42px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 42px;
+    text-align: left;
+   margin-top: 0;
+  
+   
+}
+.door_2 {
+    font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 31px;
+line-height: 42px;
+text-align: left;
+margin-top: 16px;
+max-width: 153px;
+   max-height: 42px;
+   
+
+
+
+}
+.door_3 {
+    font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 31px;
+line-height: 42px;
+text-align: left;
+margin-top: 16px;
+max-width: 171px;
+   max-height: 42px;
+   margin-bottom: 0;
+}
+.door_4 {
+    
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 42px;
+    text-align: left;
+    margin-top: 16px;
+    max-width: 133px;
+   max-height: 42px;
+   margin-bottom: 0;
+}
+
+.podiezd_2 {
+    max-width: 138px;
+max-height: 158px;
+padding-left: 70px;
+padding-top: 0;
+}
+
+
+.door_5 {
+    font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 31px;
+line-height: 42px;
+text-align: left;
+margin-top: 0;
+
+}
+.door_6 {
+    font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 31px;
+line-height: 42px;
+text-align: left;
+margin-top: 16px;
+}
+.door_7 {
+    font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 31px;
+line-height: 42px;
+text-align: left;
+margin-top: 16px;
+}
+
+/*конец четвертой части*/
+
+
+/*начало пятой части*/
+.Obshaga {
+    max-width: 1201px;
+    max-height: 214px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    
+    margin-top: 145px;
+}
+.block_1 {
+    max-width: 272.19px;
+    max-height: 162px;
+    
+    margin-top: 27px;
+}
+.lift {
+    width: 272.19px;
+height: 68px;
+    font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 34px;
+
+}
+.podval {
+    width: 272.19px;
+height: 72px;
+
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 150%;
+margin-top: 20px;
+}
+.block_2 {
+    width: 240.41px;
+    height: 214px;
+    background-color: white;
+ 
+}
+.block_3 {
+    width: 240.41px;
+    height: 214px;
+    background-color: white;
+}
+.block_4 {
+    width: 240.41px;
+    height: 214px;
+    background-color: white;
+}
+.window_1 {
+    width: 44.01px;
+    height: 53.26px;
+   margin-top: 80.37px;
+   margin-left: 98.2px;
+}
+.final_oglavlenie {
+    font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 53px;
+line-height: 120%;
+text-align: center;
+width: 960x;
+
+margin-top: 81px;
+
+}
+
+/*Конец пятой части*/
+
+/*начало шестой части*/
+.Key {
+    max-width: 962px;
+    max-height: 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+   
+    margin-top: 81px;
+}
+.sunduk_1 
+{
+    width: 434px;
+    height: 300px;
+    
+}
+.sunduk_2 
+{
+    width: 434px;
+    height: 300px;
+   
+}
+.yacheica_1 {
+    text-align: start;
+    width: 360px;
+height: 140px;
+margin-top: 60px;
+margin-left: 60px;
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 28px;
+
+}
+.yacheica_2 {
+    text-align: start;
+    width: 360px;
+height: 28px;
+margin-top: 20px;
+margin-left: 60px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 28px;
+
+}
+.yacheica_3 {
+    text-align: start;
+    width: 360px;
+height: 28px;
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 150%;
+margin-left: 60px;
+}
+/*footer*/
+.conteiner_free {
+    width: 1201px;
+    height: 142px;  
+   
+    margin-top: 97px;
+    display: flex;
+    justify-content: space-between;
+}
+.conteiner_1 {
+    height: 116px;
+    width: 81px;
+
+ margin-top: 11px;
+    
+}
+.log {
+    height: 116px;
+width: 80.68px;
+
+
+
+}
+.conteiner_2 {
+    height: 142px;
+    width: 154px;
+   
+ 
+}
+
+
+.predposled_text {
+    font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 150%;
+height: 21px;
+width: 108px;
+margin-left: 17px;
+
+
+
+
+}
+.sslki {
+    height: 28px;
+width: 141px;
+
+display: flex;
+justify-content: space-between;
+margin-top: 20.29px;
+
+
+
+}
+.in_cartoon {
+    height: 28px;
+width: 21px;
+
+
+}
+.twitter_cartoon {
+    height: 28px;
+width: 24px;
+
+
+}
+.facebook_cartoon {
+    height: 28px;
+    width: 15px;
+    
+    
+}
+.instagram_cartoon {
+    height: 28px;
+    width: 21px;
+ 
+    
+}
+.exit_text {
+    height: 45.88px;
+    width: 151px;
+    font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 150%;
+margin-top: 23.06px;
+    
+    margin-left: 3px;
+   
+  
+    
+}
